@@ -21,7 +21,6 @@ body {
 
 #main {
   overflow-x: hidden;
-
   background-color: #222;
 }
 #page1 {
@@ -577,6 +576,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
+  gap:4px;
 }
 #ele div {
   text-align: center;
@@ -603,7 +603,8 @@ body {
 
 #page6 {
   /* height: 100px; */
-  padding: 25px 0;
+  /* margin: 0 30px; */
+  padding: 40px 30px 40px 30px;
   width: 100%;
   background-color: #c4bcb3;
   white-space: nowrap;
@@ -619,6 +620,7 @@ body {
   /* background-color: red; */
   font-family: Editorial;
   margin-right: 30px;
+  /* padding: 30px 30px; */
   font-size: 70px;
   font-weight: 100;
   display: inline-block;
@@ -648,7 +650,63 @@ body {
 
 #page7 {
   /* padding: 30px 0; */
+  /* margin-bottom: 200px; */
   height: 100px;
   width: 100%;
   background-color: #c4bcb3;
+  align-items:center ;
+  padding: 0 30px;
+}
+#page7 #left{
+  float: left;
+  height: 30px;
+  /* background-color: #c4bcb3; */
+  padding: 50px 0px 30px 0px;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  justify-content: left;
+  object-fit: cover;
+}
+#page7 #left h4{
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  font-family: canopee;
+}
+#page7 #left h4 i{
+  font-weight: 100;
+}
+#page7 #left img{
+  object-fit: cover;
+  height: 35px;
+
+}
+#page7 #right{
+  font-family: canopee;
+
+  float: right;
+  height: 30px;
+  /* background-color: #c4bcb3; */
+  padding: 40px 0px 30px 0px;
+  /* align-items: center; */
+  /* gap: 14px; */
+  
+  justify-content: left;
+}
+#right ul{
+  font-size: 22px;
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+#right ul li{
+  /* font-size: 24px; */
+  font-weight: 100;
+  letter-spacing: -1px;
+  font-family: canopee;
+  margin-left: 10px;
+}
+#right ul li:first-child{
+  list-style-type: none;
 }
